@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/itunes-music-player-react/static/css/main.0e1fb701.css",
+    "main.js": "/itunes-music-player-react/static/js/main.4f13a312.js",
+    "static/css/879.8c7dcb51.chunk.css": "/itunes-music-player-react/static/css/879.8c7dcb51.chunk.css",
+    "static/js/879.b3e7471a.chunk.js": "/itunes-music-player-react/static/js/879.b3e7471a.chunk.js",
+    "static/css/490.ec3437b6.chunk.css": "/itunes-music-player-react/static/css/490.ec3437b6.chunk.css",
+    "static/js/490.10a08964.chunk.js": "/itunes-music-player-react/static/js/490.10a08964.chunk.js",
+    "static/css/779.44a5e84b.chunk.css": "/itunes-music-player-react/static/css/779.44a5e84b.chunk.css",
+    "static/js/779.d5642b1c.chunk.js": "/itunes-music-player-react/static/js/779.d5642b1c.chunk.js",
+    "static/js/787.41be165b.chunk.js": "/itunes-music-player-react/static/js/787.41be165b.chunk.js",
+    "index.html": "/itunes-music-player-react/index.html",
+    "main.0e1fb701.css.map": "/itunes-music-player-react/static/css/main.0e1fb701.css.map",
+    "main.4f13a312.js.map": "/itunes-music-player-react/static/js/main.4f13a312.js.map",
+    "879.8c7dcb51.chunk.css.map": "/itunes-music-player-react/static/css/879.8c7dcb51.chunk.css.map",
+    "879.b3e7471a.chunk.js.map": "/itunes-music-player-react/static/js/879.b3e7471a.chunk.js.map",
+    "490.ec3437b6.chunk.css.map": "/itunes-music-player-react/static/css/490.ec3437b6.chunk.css.map",
+    "490.10a08964.chunk.js.map": "/itunes-music-player-react/static/js/490.10a08964.chunk.js.map",
+    "779.44a5e84b.chunk.css.map": "/itunes-music-player-react/static/css/779.44a5e84b.chunk.css.map",
+    "779.d5642b1c.chunk.js.map": "/itunes-music-player-react/static/js/779.d5642b1c.chunk.js.map",
+    "787.41be165b.chunk.js.map": "/itunes-music-player-react/static/js/787.41be165b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e1fb701.css",
+    "static/js/main.4f13a312.js"
+  ]
+}
