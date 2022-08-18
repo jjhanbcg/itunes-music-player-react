@@ -1,0 +1,26 @@
+.item {
+  position: relative;
+  display: flex;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+.item em {
+  font-size: 1.1em;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.item + .item {
+  margin-block-start: 1rem;
+}
+
+.item-content {
+  display: block;
+  padding: 0 1rem 1rem 1rem;
+  flex-grow: 1;
+}
+
+.item-content span {
+  display: block;
+}

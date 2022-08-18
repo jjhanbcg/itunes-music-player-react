@@ -1,13 +1,108 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+
+  --white: #ffffff;
+  --greyLight-1: #e4ebf5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@keyframes quiet {
+  25% {
+    transform: scaleY(0.6);
+  }
+  50% {
+    transform: scaleY(0.4);
+  }
+  75% {
+    transform: scaleY(0.8);
+  }
+}
+
+@keyframes normal {
+  25% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.4);
+  }
+  75% {
+    transform: scaleY(0.6);
+  }
+}
+@keyframes loud {
+  25% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.4);
+  }
+  75% {
+    transform: scaleY(1.2);
+  }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background: var(--greyLight-1);
+  font-family: "Roboto", sans-serif;
+  color: var(--greyDark);
+}
+
+.boxContainer {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  height: 2rem;
+  --boxSize: 0.3rem;
+  --gutter: 0.15rem;
+  width: calc((var(--boxSize) + var(--gutter)) * 5);
+  transform: translate3d(0, -50%, 0);
+}
+
+.box {
+  transform: scaleY(0.4);
+  height: 100%;
+  width: var(--boxSize);
+  background: var(--primary);
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  border-radius: 8px;
+}
+
+.box1 {
+  animation-name: quiet;
+}
+
+.box2 {
+  animation-name: normal;
+}
+
+.box3 {
+  animation-name: quiet;
+}
+
+.box4 {
+  animation-name: loud;
+}
+
+.box5 {
+  animation-name: quiet;
 }
